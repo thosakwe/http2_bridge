@@ -1,0 +1,12 @@
+name: http2_bridge
+version: 1.0.0-alpha
+description: Handle HTTP/2 requests as if they were dart:io HttpRequests.
+author: Tobe O <thosakwe@gmail.com>
+homepage: https://github.com/thosakwe/http2_bridge
+environment:
+  sdk: ">=1.19.0"
+dependencies:
+  http2: ^0.1.1
+  mock_request: ^1.0.0
+dev_dependencies:
+  test: ^0.12.0
